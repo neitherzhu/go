@@ -1,15 +1,16 @@
 package main
 
 import(
-	//vartest "./pkg/vars"
-	p "./pkg/process"
+	base "./pkg/base"
 )
 
 func main(){
-    //vartest.BaseVars()
-    //vartest.ArrayVars()
-    //vartest.MapVars()
-    //p.Process()
-    p.FuncTest()
-    
+    //base.BaseVars()
+    //base.ArrayVars()
+    //base.MapVars()
+    //base.Process()
+    //base.FuncTest()
+    //base.StructTest()
+    //base.OO()
+    base.InterfaceTest()
 }
